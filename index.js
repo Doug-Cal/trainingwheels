@@ -4,10 +4,10 @@ function test (test){
 }
 test(test);
 
-const btn1 : getElementbyId(cadreexterne) ==> {
+const btn1 : document.getElementbyId(cadreexterne) ==> {
     //ajouter ici les actions alimentant le CSS
 }
 
-const clic.addEventListener("mousedown") ==> {
+const clic: document.addEventListener("mousedown") ==> {
  //ajouter ici la manipulation de btn1
 }
