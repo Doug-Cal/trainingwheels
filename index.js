@@ -4,6 +4,8 @@ console.log("menu tous boutons");
 });
 
 
+console.log("Le script est lancé!");
+
 const btn1 = document.getElementById("#btn1");
 btn1.addEventListener("click", () => {
     btn1.classList.add("buttonMouseOver");
