@@ -3,13 +3,17 @@ const btn1 = document.querySelector(button);
 btn1.addEventListener("click", () => {
     btn1.classList.add("buttonMouseOver");
     btn1.style.padding = "0px";
-});
+    console.log("click1");
+    });
 
 
 btn2.addEventListener("click",() => {
-    const square = div.querySelector(#secondZone);
+    console.log("click2")
+;    const square = div.querySelector(#secondZone);
+    console.log(square);
     square.createElement("div",id="tile");
     const tile = square.querySelector(#tile);
+    console.log(tile);
     tile.add(<p>tuile ici</p>);
 });
 
