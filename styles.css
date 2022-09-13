@@ -38,3 +38,8 @@ margin: 10px;
   color:cornflowerblue;
 }
 
+/* décor des boutons lors du survol */
+.buttonMouseOver {
+  background-color: azure;
+}
+/* décor des boutons lors du click */
