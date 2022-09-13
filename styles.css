@@ -9,7 +9,6 @@ body {
 .title{
   font: size 12px;
   height:10vh;
-  top:auto;
   background-color: rgba(100, 100, 100, 1);
 }
 
@@ -22,7 +21,7 @@ background-color: teal;
 
 .headerButton{
 font-family:Tahoma;
-display:block;
+display:inline-flex;
 color:white;
 font-size:20px;
 }
