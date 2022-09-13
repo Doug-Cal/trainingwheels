@@ -1,15 +1,23 @@
 body {
-    max-width:100%;
-    height:auto;
-    display:block;
-    font-size: 11px;
-    font-family: Tahoma;
-  }
+  max-width:100%;
+  height:auto;
+  display:block;
+  font-size: 11px;
+  font-family: Tahoma;
+}
 
-.cadreexterne {
+.title{
+  font: size 12px;
+  height:10vh;
+  top:auto;
+  background-color: rgba(100, 100, 100, 1);
+}
 
+.topbar {
+font-family:Tahoma;
 display:block;
-font-size:14px;
-background-color:rgba(120,13,44,0.7);
+top:0px;
+background-color:rgba(255,255,255,1);
+  color:white;
+}
 
-  }
