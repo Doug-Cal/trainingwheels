@@ -14,13 +14,16 @@ body {
 }
 
 .topbar {
+left:0px;
+top:0px;
+position:fixed;
+background-color: teal;
+}
+
+.headerButton{
 font-family:Tahoma;
 display:block;
-top:0px;
-background-color:rgba(255,255,255,1);
 color:white;
 font-size:20px;
-position:fixed;
-
 }
 
