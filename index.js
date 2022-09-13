@@ -17,7 +17,7 @@ btn1.addEventListener("click", () => {
 const btn2 = document.getElementbyId("#btn2");
 btn2.addEventListener("click",() => {
     console.log("click2");
-    const square = div.getElementbyId(#secondZone);
+    const square = div.getElementbyId("#secondZone");
     console.log(square);
     square.createElement("div", id="tile");
     const tile = square.getElementbyId(#tile);
