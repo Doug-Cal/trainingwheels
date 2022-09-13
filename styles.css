@@ -15,9 +15,9 @@ body {
 .topbar {
 left:0px;
 top:0px;
-position:absolute;
+position:relative;
 width:100%;
-height:5%;
+height:50px;
 background-color: teal;
 }
 
@@ -31,6 +31,8 @@ margin: 10px;
 }
 
 .firstZone{
+  display:block;
+  position:relative;
   padding:1%;
   height: 50px;
   color:cornflowerblue;
