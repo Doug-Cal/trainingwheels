@@ -18,6 +18,9 @@ font-family:Tahoma;
 display:block;
 top:0px;
 background-color:rgba(255,255,255,1);
-  color:white;
+color:white;
+font-size:20px;
+position:fixed;
+
 }
 
