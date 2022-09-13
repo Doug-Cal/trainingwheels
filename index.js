@@ -8,6 +8,6 @@ const alert = (testUserName) => {
 
 
 const topBar = document.querySelector("nav");
-const test = topBar.addEventListener("mouseover") => {
+const test = topBar.addEventListener("mouseover") {
  alert();
 };
