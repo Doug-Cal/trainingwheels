@@ -17,17 +17,18 @@ left:0px;
 top:0px;
 position:relative;
 width:100%;
-height:50px;
+height:80px;
 background-color: teal;
 }
 
 .headerButton{
+height:40px;
 font-family:Tahoma;
 display:inline;
-color:white;
-font-size:20px;
+background-color: teal;
 padding:10px;
 margin: 10px;
+border:0px;
 }
 
 .firstZone{
