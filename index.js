@@ -20,7 +20,7 @@ btn2.addEventListener("click",() => {
     const square = div.getElementbyId("#secondZone");
     console.log(square);
     square.createElement("div", id="tile");
-    const tile = square.getElementbyId(#tile);
+    const tile = square.getElementbyId("#tile");
     console.log(tile);
     tile.add(<p>tuile ici</p>);
     });
