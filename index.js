@@ -7,9 +7,9 @@ btn1.addEventListener("click", () => {
 
 
 btn2.addEventListener("click",() => {
-    const square = div.querySelectorAll(#secondZone);
+    const square = div.querySelector(#secondZone);
     square.createElement("div",id="tile");
-    square.appendChild(
-        <p>tuile ici</p>);
+    const tile = square.querySelector(#tile);
+    tile.add(<p>tuile ici</p>);
 });
 
