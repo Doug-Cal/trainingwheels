@@ -1,6 +1,7 @@
 console.log("Le script est lancé!");
 
 const btn1 = document.getElementById("#btn1");
+const btn1 = document
 console.log(btn1); //Check if btn1 is correctly assigned
 btn1.addEventListener("click", () => {
     btn1.classList.add("buttonMouseOver");

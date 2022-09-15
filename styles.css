@@ -44,6 +44,12 @@ border:0px;
 border-radius: 5%;
 }
 
+#search {
+ padding:10px;
+ border-radius: 2px;
+right: 10vh;
+}
+
 .zone{
   display:block;
   position:relative;
