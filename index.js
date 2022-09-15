@@ -6,7 +6,8 @@ btn1.addEventListener("click", () => {
     btn1.classList.add("buttonMouseOver");
     console.log("click1");
     });
-/*
+
+    /*
 const btn2 = document.getElementbyId("#btn2");
 btn2.addEventListener("click",() => {
     console.log("click2");
