@@ -1,10 +1,8 @@
 console.log("Le script est lancé!");
 
 const btn1 = document.getElementById('btn1');
-console.log(btn1);
-btn1.addEventListener("click", () => {
-    btn1.classList.add("buttonMouseOver");
-    console.log("click1");
+btn1.addEventListener("mouseover", () => {
+    btn1.classList.toggle("buttonMouseOver");
     });
 
 
@@ -20,5 +18,12 @@ btn2.addEventListener("click",() => {
         tile.addEventListener('mouseover',() => {
         console.log("mouseoveeeeeeer") });
     });
+
+const navigatorMouvement = document.querySelector('body');
+navigatorMouvement.addEventListener('mousemove',() => {
+    if(btn2){
+        console.log(btn2);}
+    });
+
 
 //const mouse = document.querySelector('')
