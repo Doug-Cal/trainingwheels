@@ -1,4 +1,5 @@
 console.log("Le script est lancé!");
+let tileNumber = 0;
 
 const btn1 = document.getElementById('btn1');
 btn1.addEventListener("mouseover", () => {
@@ -28,5 +29,6 @@ function addTile () {
 
 const btn2 = document.getElementById('btn2');
 btn2.addEventListener("click",() => {
+    if(tileNumber === 0){
     addTile();
-    console.log("click2");});
+    tileNumber++}});
