@@ -28,13 +28,7 @@ function addTile () {
     const currentDiv = document.getElementById("secondZone");
     currentDiv.appendChild(tile);}
 
-function callRecipe (rand){
-    const numb = rand;
-    console.log(numb);};
-
 const btn2 = document.getElementById('btn2');
 btn2.addEventListener("click",() => {
-    const random = Math.Floor(Math.random() *20);
     addTile();
-    callRecipe(random);
     console.log("click2");});
