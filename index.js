@@ -43,8 +43,9 @@ function step(){
 
 
 const btn1 = document.getElementById('btn1');
-    btn1.addEventListener("mouseover", () => {
-    btn1.style.color = 'red';});
+    btn1.addEventListener("click", () => {
+    btn1.style.color = 'red';
+    step()});
 
 const btn2 = document.getElementById('btn2');
     btn2.addEventListener("click",() => {
