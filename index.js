@@ -16,6 +16,7 @@ function addTile () {
     /* ci-dessous instancier un bouton dans l'invocation elle-même */
     const tileButton = document.createElement("button");
     tileButton.classList = '.headerButton';
+    tileButton.id = 'nextButton';
     console.log(tileButton);
     tile.innerHTML = `<h1> TEST 
                         <button class="headerButton" id="btn1btnNext">Suivant</button>
