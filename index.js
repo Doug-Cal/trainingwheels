@@ -7,21 +7,14 @@ btn1.addEventListener("mouseover", () => {
 
 function addTile () {
     const tile = document.createElement("div");
-    
-    const tileName = tile.createElement("p");
     const tileContent = {
         title:"Première recette !",
         no:1};
-    tileName.createTextNode(`#${tileContent.no} : ${tileContent.title} `);
+    const tileName = document.createTextNode(`#${tileContent.no} : ${tileContent.title} `);
+   
     tile.appendChild(tileName);
-    
-
-
-    /* const newContent = document.createTextNode(`#${tileContent.no} : ${tileContent.title} `); */
-    
-    
-    /* ci-dessous instancier un bouton dans l'invocation elle-même */
-    const tileButton = document.createElement("button");
+        
+        const tileButton = document.createElement("button");
     tileButton.classList = '.headerButton';
     tileButton.id = 'nextButton';
     console.log(tileButton);
@@ -29,10 +22,7 @@ function addTile () {
                         <button class="headerButton" id="btn1btnNext">Suivant</button>
                     </h1>`;
 
-
-        /* FIN ZONE DE TRAVAIL */
         tile.classList = '.topbar';
-        tile.appendChild(newContent);
         tile.appendChild(tileButton);
     // Attaching the new elements to the div
     const currentDiv = document.getElementById("secondZone");
