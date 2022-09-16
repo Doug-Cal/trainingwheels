@@ -7,10 +7,17 @@ btn1.addEventListener("mouseover", () => {
 
 function addTile () {
     const tile = document.createElement("div");
+    
+    const tileName = tile.createElement("p");
     const tileContent = {
         title:"Première recette !",
         no:1};
-    const newContent = document.createTextNode(`#${tileContent.no} : ${tileContent.title} `);
+    tileName.createTextNode(`#${tileContent.no} : ${tileContent.title} `);
+    tile.appendChild(tileName);
+    
+
+
+    /* const newContent = document.createTextNode(`#${tileContent.no} : ${tileContent.title} `); */
     
     
     /* ci-dessous instancier un bouton dans l'invocation elle-même */
