@@ -13,16 +13,14 @@ function addTile () {
     const tileName = document.createTextNode(`#${tileContent.no} : ${tileContent.title} `);
    
     tile.appendChild(tileName);
-        
-        const tileButton = document.createElement("button");
-    tileButton.classList = '.headerButton';
-    tileButton.id = 'nextButton';
-    console.log(tileButton);
-    tile.innerHTML = `<h1> TEST 
-                        <button class="headerButton" id="btn1btnNext">Suivant</button>
-                    </h1>`;
+    tile.classList = '.topbar';
 
-        tile.classList = '.topbar';
+        const tileButton = document.createElement("button");
+        tileButton.classList = '.headerButton';
+        tileButton.id = 'nextButton';
+        console.log(tileButton);
+
+        
         tile.appendChild(tileButton);
     // Attaching the new elements to the div
     const currentDiv = document.getElementById("secondZone");
