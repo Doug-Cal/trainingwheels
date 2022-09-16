@@ -32,8 +32,7 @@ function step(){
         ingredients:[['apples', 2], ['oranges', 1]],
     }
 
-    const actionTitle = document.getElementById('action');
-        actionTitle.document.createTextNode(`Ingrédients et ustensiles pour votre ${recipe.name}`);
+    const actionTitle = document.getElementById('action').createTextNode(`Ingrédients et ustensiles pour votre ${recipe.name}`);
     const descriptionText = document.getElementById('description');
         descriptionText.createTextNode(`${recipe.ingredients}`);
     const next = document.getElementById('nextStep');
