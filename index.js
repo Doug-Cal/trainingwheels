@@ -6,26 +6,18 @@ btn1.addEventListener("mouseover", () => {
     });
 
 function addTile () {
-    // create a new div element
-    const newDiv = document.createElement("div");
-    // and give it some content
-    const newContent = document.createTextNode("New temp Div Here");
-    // add the text node to the newly created div
-    newDiv.appendChild(newContent);
-    // add the newly created element and its content into the DOM
+    const tile = document.createElement("div");
+    const tileContent = {
+        title:"New temp Div Here",
+        no:1};
+    const newContent = document.createTextNode(`Affichage Titre : ${tileContent.title} et affichage numéro ${tileContent.no}`);
+    tile.appendChild(newContent);
+    // Attaching the new elements to the div
     const currentDiv = document.getElementById("secondZone");
-    //OLD : document.body.main.insertBefore(newDiv, null);}
-   currentDiv.appendChild(newDiv);}
+    currentDiv.appendChild(ntile);}
     
 const btn2 = document.getElementById('btn2');
 btn2.addEventListener("click",() => {
+    if(tile){addTile();};
     console.log("click2");
-    addTile();
 });
-    
-
-    
-
-
-
-    
