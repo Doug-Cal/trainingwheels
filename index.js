@@ -5,8 +5,7 @@ btn1.addEventListener("mouseover", () => {
     btn1.classList.toggle("buttonMouseOver");
     });
 
-
-const btn2 = document.getElementbyId("btn2");
+const btn2 = document.getElementById('btn2');
 btn2.addEventListener("click",() => {
     console.log("click2");
     const square = div.getElementbyId('secondZone');
