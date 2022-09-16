@@ -26,9 +26,6 @@ function addTile () {
 
 
 function step(){
-    const whatRecipe = recipe;
-    console.log(whatRecipe);
-
     const actionTitle = document.getElementById('action');
         actionTitle.document.createTextNode(`Ingrédients et ustensiles`);
     const descriptionText = document.getElementById('description');
@@ -39,7 +36,7 @@ function step(){
             console.log('next step when clicked')});
     const counter = document.getElementById('stepCounter');
         counter.createTextNode('2/2');
-                }
+}
 
 
 
