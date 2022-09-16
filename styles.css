@@ -60,7 +60,7 @@ right: 10vh;
 
 /* décor des boutons lors du click */
 .buttonMouseOver {
-  color: azure;
+  color: red;
 }
 
 footer{
