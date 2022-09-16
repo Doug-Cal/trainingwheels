@@ -14,6 +14,7 @@ body {
   height:auto;
   display:block;
   font-size: 11px;
+  background-color: blanchedalmond;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
 main {
@@ -22,7 +23,9 @@ main {
 }
 
 footer{
-  background-color: rgb(159, 115, 201);}
+  background-color: rgb(159, 115, 201);
+  display:block;}
+
 
 
 /* Classes */
@@ -50,9 +53,9 @@ border-radius: 5%;}
 
 .zone{
   display:block;
-  position:relative;
   padding:1%;
-  color:cornflowerblue;}
+  color:cornflowerblue;
+  background-color: aqua;}
 
 /* décor des boutons lors du click */
 .buttonMouseOver {

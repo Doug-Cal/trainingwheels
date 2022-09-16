@@ -3,8 +3,7 @@ let tileNumber = 0;
 
 const btn1 = document.getElementById('btn1');
 btn1.addEventListener("mouseover", () => {
-    btn1.classList.toggle("buttonMouseOver");});
-    btn1.style.color = 'red';
+    btn1.style.color = 'red';});
 
 function addTile () {
     const tile = document.createElement("div");
