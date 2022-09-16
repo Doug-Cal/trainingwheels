@@ -14,7 +14,7 @@ function addTile () {
     newDiv.appendChild(newContent);
     // add the newly created element and its content into the DOM
     const currentDiv = document.getElementById("secondZone");
-    document.body.insertBefore(newDiv, currentDiv);}
+    document.body.main.insertBefore(newDiv, currentDiv);}
     const btn2 = document.getElementById('btn2');
 btn2.addEventListener("click",() => {
     console.log("click2");
