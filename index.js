@@ -10,6 +10,11 @@ btn2.addEventListener("click",() => {
     console.log("click2");
     const square = document.getElementById('secondZone');
     console.log(square);
+    
+    const tile = tile.createElement("div", id="tile", classList ="tile");
+    square.appendChild('tile');
+    
+    /*
     square.createElement("div", id="tile", classList ="tile");
     const tile = square.getElementById("#tile");
     console.log(tile);
@@ -17,6 +22,7 @@ btn2.addEventListener("click",() => {
         tile.addEventListener('mouseover',() => {
         console.log("mouseoveeeeeeer") });
     });
+    */
 
 /*Réservé pour l'animation des blocs
 const navigatorMouvement = document.querySelector('body');

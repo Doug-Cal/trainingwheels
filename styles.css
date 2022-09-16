@@ -1,3 +1,4 @@
+/* Elements */
 header{
 width:100%;
 height:10vh;
@@ -6,23 +7,23 @@ border:0px;
 padding:auto;
 margin:auto;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-background-color: rgb(48, 110, 110);
-}
-
+background-color: rgb(48, 110, 110);}
 
 body {
   width:100%;
   height:auto;
   display:block;
   font-size: 11px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
-}
+footer{
+  background-color: rgb(159, 115, 201);}
 
+
+/* Classes */
 .title{
   font-size:  12px;
-  background-color: rgba(100, 100, 100, 1);
-}
+  background-color: rgba(100, 100, 100, 1);}
 
 .topbar {
 left:0px;
@@ -30,8 +31,7 @@ top:0px;
 position:relative;
 width:100%;
 height:80px;
-background-color: teal;
-}
+background-color: teal;}
 
 .headerButton{
 height:40px;
@@ -41,37 +41,31 @@ background-color:rgb(159, 196, 196);
 color:white;
 padding:10px;
 border:0px;
-border-radius: 5%;
-}
-
-#search {
- padding:10px;
- border-radius: 2px;
-right: 10vh;
-}
+border-radius: 5%;}
 
 .zone{
   display:block;
   position:relative;
   padding:1%;
   height: 50px;
-  color:cornflowerblue;
-}
+  color:cornflowerblue;}
 
 /* décor des boutons lors du click */
 .buttonMouseOver {
-  color: red;
-}
+  color: red;}
 
-footer{
-background-color: rgb(159, 115, 201);
-  }
-
-  .tile{
+.tile{
 background-color: black;
 width:25px;
 height:25px;
 top:0%;
 left: 0%;
 padding:auto;
-  }
+}
+
+
+#search {
+  padding:10px;
+  border-radius: 2px;
+ right: 10vh;
+ }
