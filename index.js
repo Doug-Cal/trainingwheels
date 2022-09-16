@@ -2,9 +2,9 @@ console.log("Le script est lancé!");
 
 const btn1 = document.getElementById('btn1');
 btn1.addEventListener("mouseover", () => {
-    btn1.classList.toggle("buttonMouseOver");
-    });
+    btn1.classList.toggle("buttonMouseOver");});
 
+    
 function addTile () {
     const tile = document.createElement("div");
     const tileContent = {
@@ -18,6 +18,5 @@ function addTile () {
     
 const btn2 = document.getElementById('btn2');
 btn2.addEventListener("click",() => {
-    if(tile){addTile();};
-    console.log("click2");
-});
+    addTile();
+    console.log("click2");});
