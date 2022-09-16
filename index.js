@@ -8,10 +8,11 @@ btn1.addEventListener("mouseover", () => {
 function addTile () {
     const tile = document.createElement("div");
     const tileContent = {
-        title:"New temp Div Here",
+        title:"Première recette !",
         no:1};
-    const newContent = document.createTextNode(`Affichage Titre : ${tileContent.title} et affichage numéro ${tileContent.no}`);
+    const newContent = document.createTextNode(`#${tileContent.no} : ${tileContent.title} `);
     tile.appendChild(newContent);
+    tile.innerHTML = '<h1> TEST </h1>';
     // Attaching the new elements to the div
     const currentDiv = document.getElementById("secondZone");
     currentDiv.appendChild(tile);}

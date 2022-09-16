@@ -16,6 +16,11 @@ body {
   font-size: 11px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
+main {
+  width:90%;
+  height:50px;
+}
+
 footer{
   background-color: rgb(159, 115, 201);}
 
@@ -47,7 +52,6 @@ border-radius: 5%;}
   display:block;
   position:relative;
   padding:1%;
-  height: 50px;
   color:cornflowerblue;}
 
 /* décor des boutons lors du click */
@@ -63,9 +67,9 @@ left: 0%;
 padding:auto;
 }
 
-
+/* IDs */
 #search {
   padding:10px;
   border-radius: 2px;
- right: 10vh;
+  right : 10px;
  }
