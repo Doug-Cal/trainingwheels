@@ -26,11 +26,16 @@ function addTile () {
 
 
 function step(){
+    const recipe = {
+        name:"Crumbubble",
+        stepNumber :2,
+        ingredients:[['apples', 2], ['oranges', 1]],
+    }
+
     const actionTitle = document.getElementById('action');
-        actionTitle.document.createTextNode(`Ingrédients et ustensiles`);
+        actionTitle.document.createTextNode(`Ingrédients et ustensiles pour votre ${recipe.name}`);
     const descriptionText = document.getElementById('description');
-        let shopList = [['apples', 2], ['oranges', 1]];    
-        descriptionText.createTextNode(`${shopList}`);
+        descriptionText.createTextNode(`${recipe.ingredients}`);
     const next = document.getElementById('nextStep');
         next.addEventListener('click', () => {
             console.log('next step when clicked')});
