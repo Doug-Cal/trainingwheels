@@ -1,0 +1,21 @@
+const tile = tile.createElement("div", id="tile", classList ="tile");
+    square.appendChild('tile');
+    
+    /*
+    square.createElement("div", id="tile", classList ="tile");
+    const tile = square.getElementById("#tile");
+    console.log(tile);
+    //tile.add('<p>tuile ici</p>');
+        tile.addEventListener('mouseover',() => {
+        console.log("mouseoveeeeeeer") });
+    });
+    */
+
+/*
+Réservé pour l'animation des blocs
+const navigatorMouvement = document.querySelector('body');
+navigatorMouvement.addEventListener('mousemove',() => {
+    if(btn2){
+        console.log(btn2);}
+    });
+*/

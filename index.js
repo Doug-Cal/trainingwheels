@@ -5,29 +5,25 @@ btn1.addEventListener("mouseover", () => {
     btn1.classList.toggle("buttonMouseOver");
     });
 
-const btn2 = document.getElementById('btn2');
+function addTile () {
+    // create a new div element
+    const newDiv = document.createElement("div");
+    // and give it some content
+    const newContent = document.createTextNode("New temp Div Here");
+    // add the text node to the newly created div
+    newDiv.appendChild(newContent);
+    // add the newly created element and its content into the DOM
+    const currentDiv = document.getElementById("secondZone");
+    document.body.insertBefore(newDiv, currentDiv);}
+    const btn2 = document.getElementById('btn2');
 btn2.addEventListener("click",() => {
     console.log("click2");
-    const square = document.getElementById('secondZone');
-    console.log(square);
+    addTile();
+});
     
-    const tile = tile.createElement("div", id="tile", classList ="tile");
-    square.appendChild('tile');
-    
-    /*
-    square.createElement("div", id="tile", classList ="tile");
-    const tile = square.getElementById("#tile");
-    console.log(tile);
-    //tile.add('<p>tuile ici</p>');
-        tile.addEventListener('mouseover',() => {
-        console.log("mouseoveeeeeeer") });
-    });
-    */
 
-/*Réservé pour l'animation des blocs
-const navigatorMouvement = document.querySelector('body');
-navigatorMouvement.addEventListener('mousemove',() => {
-    if(btn2){
-        console.log(btn2);}
-    });
-*/
+    
+
+
+
+    
