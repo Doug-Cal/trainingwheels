@@ -14,7 +14,7 @@ btn2.addEventListener("click",() => {
     square.createElement("div", id="tile");
     const tile = square.getElementbyId("#tile");
     console.log(tile);
-    tile.add(<p>tuile ici</p>);
+    //tile.add('<p>tuile ici</p>');
         tile.addEventListener('mouseover',() => {
         console.log("mouseoveeeeeeer") });
     });
@@ -24,6 +24,5 @@ navigatorMouvement.addEventListener('mousemove',() => {
     if(btn2){
         console.log(btn2);}
     });
-
 
 //const mouse = document.querySelector('')
