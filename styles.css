@@ -57,6 +57,10 @@ border-radius: 5%;}
   color:cornflowerblue;
   background-color: aqua;}
 
+.middle{
+  font-size:larger;
+}
+
 /* décor des boutons lors du click */
 .buttonMouseOver {
   color: red;}
