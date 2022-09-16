@@ -8,9 +8,9 @@ btn1.addEventListener("mouseover", () => {
 const btn2 = document.getElementById('btn2');
 btn2.addEventListener("click",() => {
     console.log("click2");
-    const square = div.getElementbyId('secondZone');
+    const square = document.getElementbyId('secondZone');
     console.log(square);
-    square.createElement("div", id="tile");
+    square.createElement("div", id="tile", classList ="tile");
     const tile = square.getElementbyId("#tile");
     console.log(tile);
     //tile.add('<p>tuile ici</p>');
@@ -18,10 +18,10 @@ btn2.addEventListener("click",() => {
         console.log("mouseoveeeeeeer") });
     });
 
+/*Réservé pour l'animation des blocs
 const navigatorMouvement = document.querySelector('body');
 navigatorMouvement.addEventListener('mousemove',() => {
     if(btn2){
         console.log(btn2);}
     });
-
-//const mouse = document.querySelector('')
+*/

@@ -66,3 +66,12 @@ right: 10vh;
 footer{
 background-color: rgb(159, 115, 201);
   }
+
+  .tile{
+background-color: black;
+width:25px;
+height:25px;
+top:0%;
+left 0%;
+padding:auto;
+  }
