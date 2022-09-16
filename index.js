@@ -25,7 +25,7 @@ function addTile () {
 
 
 
-function step(recipe){
+function step(){
     const whatRecipe = recipe;
     console.log(whatRecipe);
 
@@ -48,7 +48,7 @@ function step(recipe){
 const btn1 = document.getElementById('btn1');
     btn1.addEventListener("click", () => {
     btn1.style.color = 'red';
-    step(objects.js.recipe)});
+    step()});
 
 const btn2 = document.getElementById('btn2');
     btn2.addEventListener("click",() => {
