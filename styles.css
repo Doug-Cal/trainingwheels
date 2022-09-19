@@ -23,6 +23,7 @@ main {
 }
 
 footer{
+  bottom:20px;
   width:100%;
   background-color: rgb(159, 115, 201);
   display:block;}
