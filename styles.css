@@ -43,6 +43,11 @@ width:100%;
 height:80px;
 background-color: teal;}
 
+.middle{
+  right:25%;
+  width:75%;
+}
+
 .headerButton{
 height:40px;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -78,9 +83,14 @@ left: 0%;
 padding:auto;
 }
 
-/* IDs */
-#search {
+
+ .nextButton{
+  right : 10%;
+  height:40px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display:inline-flex;
+  background-color:rgb(159, 196, 196);
+  color:white;
   padding:10px;
-  border-radius: 2px;
-  right : 10px;
- }
+  border:0px;
+  border-radius: 5%;}
