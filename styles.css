@@ -10,19 +10,11 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 background-color: rgb(48, 110, 110);}
 
 body {
-  width:100%;
   height:auto;
   display:block;
   font-size: 11px;
   background-color: blanchedalmond;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-
-
-footer{
-  bottom:20px;
-  width:100%;
-  background-color: rgb(159, 115, 201);
-  display:block;}
 
 
 
@@ -42,9 +34,13 @@ background-color: teal;}
 
 .middle{
   left:10%;
-  width:75%;
+  width:80%;
+  height:50%;
   display:block;
   background-color: blueviolet;
+  border:12px;
+  padding:auto;
+  margin:auto;
 }
 
 .headerButton{
@@ -64,28 +60,16 @@ border-radius: 5%;}
   color:cornflowerblue;
   background-color: aqua;}
 
-.middle{
-  
-  font-size:larger;
-}
 
 /* décor des boutons lors du click */
 .buttonMouseOver {
   color: red;}
 
-.tile{
-background-color: black;
-width:250px;
-height:250px;
-top:0%;
-left: 0%;
-padding:auto;
-}
 
 
  .nextButton{
-  right : 10%;
-  height:40px;
+  right: 10%;
+  height: 40px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display:inline-flex;
   background-color:rgb(159, 196, 196);
