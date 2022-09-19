@@ -13,7 +13,7 @@ body {
   height:auto;
   display:block;
   font-size: 11px;
-  background-color: blanchedalmond;
+  background-color: rgb(122, 172, 130);
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
 
@@ -33,11 +33,10 @@ height:80px;
 background-color: teal;}
 
 .middle{
-  left:10%;
-  width:80%;
-  height:50%;
+  width:80vh;
+  height:50vh;
   display:block;
-  background-color: blueviolet;
+  background-color: rgb(129, 204, 114);
   border:12px;
   padding:auto;
   margin:auto;
@@ -64,7 +63,6 @@ border-radius: 5%;}
 /* décor des boutons lors du click */
 .buttonMouseOver {
   color: red;}
-
 
 
  .nextButton{
