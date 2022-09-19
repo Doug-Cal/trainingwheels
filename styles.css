@@ -6,7 +6,7 @@ display:inline;
 border:0px;
 padding:auto;
 margin:auto;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 background-color: rgb(48, 110, 110);}
 
 body {
@@ -44,20 +44,12 @@ background-color: teal;}
 
 .headerButton{
 height:40px;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 display:inline-flex;
 background-color:rgb(159, 196, 196);
 color:white;
 padding:10px;
 border:0px;
 border-radius: 5%;}
-
-.zone{
-  width:100%;
-  display:block;
-  padding:1%;
-  color:cornflowerblue;
-  background-color: aqua;}
 
 
 /* décor des boutons lors du click */
@@ -68,19 +60,26 @@ border-radius: 5%;}
  .nextButton{
   right: 10%;
   height: 40px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display:inline-flex;
   background-color:rgb(159, 196, 196);
   color:white;
   padding:10px;
   border:0px;
-  border-radius: 5%;}
+  border-radius: 5%;
+  right:25px;
+  bottom:25px;}
 
   #stepCounter{
     background-color: black;
     color:white;
     padding:10px;
     border:0px;
-    border-radius: 5%;
+    border-radius: 25%;
     width:5%;
+    text-align: center;
+
   }
+
+  #recipeTitle{
+    text-align:center;}
+
+  
