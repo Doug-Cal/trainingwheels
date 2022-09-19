@@ -17,10 +17,6 @@ body {
   background-color: blanchedalmond;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
-main {
-  width:90%;
-  height:50px;
-}
 
 footer{
   bottom:20px;
@@ -45,8 +41,10 @@ height:80px;
 background-color: teal;}
 
 .middle{
-  right:25%;
+  left:10%;
   width:75%;
+  display:block;
+  background-color: blueviolet;
 }
 
 .headerButton{
@@ -95,3 +93,11 @@ padding:auto;
   padding:10px;
   border:0px;
   border-radius: 5%;}
+
+  #stepCounter{
+    background-color: black;
+    color:white;
+    padding:10px;
+    border:0px;
+    border-radius: 5%;
+  }
