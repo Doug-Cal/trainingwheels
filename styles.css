@@ -23,6 +23,7 @@ main {
 }
 
 footer{
+  width:100%;
   background-color: rgb(159, 115, 201);
   display:block;}
 
@@ -30,6 +31,7 @@ footer{
 
 /* Classes */
 .title{
+  width:100%;
   font-size:  12px;
   background-color: rgba(100, 100, 100, 1);}
 
@@ -52,12 +54,14 @@ border:0px;
 border-radius: 5%;}
 
 .zone{
+  width:100%;
   display:block;
   padding:1%;
   color:cornflowerblue;
   background-color: aqua;}
 
 .middle{
+  
   font-size:larger;
 }
 
@@ -67,8 +71,8 @@ border-radius: 5%;}
 
 .tile{
 background-color: black;
-width:25px;
-height:25px;
+width:250px;
+height:250px;
 top:0%;
 left: 0%;
 padding:auto;
